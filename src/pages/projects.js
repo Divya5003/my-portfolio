@@ -12,6 +12,7 @@ import project3 from '../../public/images/projects/dall-e.png'
 import project4 from '../../public/images/projects/meals-app.jpg'
 import project5 from '../../public/images/projects/team-allocation.jpg'
 import project6 from '../../public/images/projects/resume-analysis.jpg'
+import project7 from '../../public/images/projects/car-showcase.jpg'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
@@ -109,6 +110,16 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
+                                title="Car Showcase"
+                                type="Modern Next.js Application"
+                                summary="A Modern Car Showcase Application built with React, NextJS 13, TypeScript, Tailwind CSS and RapidAPI having search and filter features."
+                                img={project7}
+                                link="https://car-hub-sand.vercel.app/"
+                                github="https://github.com/Divya5003/car-showcase"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
                                 title="Netflix clone"
                                 type="Full-stack Web Application"
                                 summary="A full-stack Netflix clone developed using ReactJS, Typescript, Tailwind CSS, NextJS, Prisma, MongoDB and NextAuth with multiple features."
@@ -129,7 +140,7 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Dall-E clone"
-                                type="Full-stack MERN Application"
+                                type="MERN-stack Web Application"
                                 img={project3}
                                 summary="A Full Stack MERN AI Image Generation App replicating Dall-E by OpenAI. Users can generate images through text prompts and chare with community."
                                 github="https://github.com/Divya5003/ai-image-generator"
@@ -157,7 +168,7 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Resume Analysis Website"
-                                type="NLP Model deployed on Flask App"
+                                type="NLP Model deployed on Flask Web App"
                                 img={project6}
                                 summary="An NLP based ML model that can compare resumes, parse important details, and suggest jobs on the basis of skills and experience. Helpful for both recruiters and applicants."
                                 github="https://github.com/Divya5003/Resume-Analysis-using-nlp"
