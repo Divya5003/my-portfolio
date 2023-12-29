@@ -58,6 +58,22 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
+                        position="Software Development Intern"
+                        company="@HealTech Product (OPC) Pvt. Ltd"
+                        companyLink="https://www.healtech.co.in/"
+                        time="June 2023 - Oct 2023"
+                        address="Pune, India"
+                        work="Designed a user-friendly web app for doctors to seamlessly capture patient details. Used React.js, Tailwind, React Router, and Axios. Collaborated with the back-end team to integrate it seamlessly with Node.js-based RESTful APIs."
+                    />
+                    <Details
+                        position="Software Development Intern"
+                        company="@Systech Solutions, Inc"
+                        companyLink="http://www.systechusa.com/"
+                        time="Aug 2023 - Oct 23"
+                        address="Remote"
+                        work="Developed a comprehensive, in-house ERP system covering HRM, project management, inventory, and finance. Used Reactjs, Nodejs, and MySQL for smooth integration, crafting user-friendly interfaces. Implemented API integration for enhanced functionality."
+                    />
+                    <Details
                         position="Technical Team Member"
                         company="@TeamQuarkVITPune"
                         companyLink="https://www.teamquark.com/"

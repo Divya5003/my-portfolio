@@ -118,16 +118,6 @@ const projects = () => {
                                 github="https://github.com/Divya5003/car-showcase"
                             />
                         </div>
-                        <div className='col-span-12'>
-                            <FeaturedProject
-                                title="Netflix clone"
-                                type="Full-stack Web Application"
-                                summary="A full-stack Netflix clone developed using ReactJS, Typescript, Tailwind CSS, NextJS, Prisma, MongoDB and NextAuth with multiple features."
-                                img={project1}
-                                link="https://netflix-clone-by-divya.vercel.app/"
-                                github="https://github.com/Divya5003/netflix-clone"
-                            />
-                        </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Chat-app"
@@ -172,6 +162,16 @@ const projects = () => {
                                 img={project6}
                                 summary="An NLP based ML model that can compare resumes, parse important details, and suggest jobs on the basis of skills and experience. Helpful for both recruiters and applicants."
                                 github="https://github.com/Divya5003/Resume-Analysis-using-nlp"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Netflix clone"
+                                type="Full-stack Web Application"
+                                summary="A full-stack Netflix clone developed using ReactJS, Typescript, Tailwind CSS, NextJS, Prisma, MongoDB and NextAuth with multiple features."
+                                img={project1}
+                                link="https://netflix-clone-by-divya.vercel.app/"
+                                github="https://github.com/Divya5003/netflix-clone"
                             />
                         </div>
                     </div>
