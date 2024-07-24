@@ -40,6 +40,8 @@ const Skills = () => {
                 <Skill name="Tailwind CSS" x="28vw" y="18vw" />
                 <Skill name="Git" x="-36vw" y="-5vw" />
                 <Skill name="Spring Boot" x="0vw" y="24vw" />
+                <Skill name="Django" x="-30vw" y="-20vw" />
+                <Skill name="Flask" x="30vw" y="-20vw" />
             </div>
 
         </>

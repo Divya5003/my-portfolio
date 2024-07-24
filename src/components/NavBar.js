@@ -85,7 +85,7 @@ const NavBar = () => {
                         href="https://auth.geeksforgeeks.org/user/divya_mahajan" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className='w-6 mx-3 p-1 dark:bg-light rounded-full'
+                        className='w-6 mx-3 p-1 border border-dark dark:bg-light rounded-full'
                     >
                         <GFGIcon />
                     </motion.a>
@@ -93,7 +93,7 @@ const NavBar = () => {
                         href="https://leetcode.com/Divya_Mahajan" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className='w-6 mx-3 p-1 dark:bg-light rounded-full'
+                        className='w-6 mx-3 p-1 border border-dark dark:bg-light rounded-full'
                     >
                         <LeetcodeIcon />
                     </motion.a>

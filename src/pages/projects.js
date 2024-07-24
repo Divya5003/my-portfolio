@@ -7,12 +7,14 @@ import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import { motion } from 'framer-motion'
 import project1 from '../../public/images/projects/netflix-clone.jpg'
-import project2 from '../../public/images/projects/chat-app.png'
-import project3 from '../../public/images/projects/dall-e.png'
+import project2 from '../../public/images/projects/resume-analysis.jpg'
+import project3 from '../../public/images/projects/team-allocation.jpg'
 import project4 from '../../public/images/projects/meals-app.jpg'
-import project5 from '../../public/images/projects/team-allocation.jpg'
-import project6 from '../../public/images/projects/resume-analysis.jpg'
+import project5 from '../../public/images/projects/dall-e.png'
+import project6 from '../../public/images/projects/chat-app.png'
 import project7 from '../../public/images/projects/car-showcase.jpg'
+import project8 from '../../public/images/projects/e-bookstore.png'
+import project9 from '../../public/images/projects/classroom-app.png'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
@@ -108,6 +110,24 @@ const projects = () => {
                 <Layout className='pt-16'>
                     <AnimatedText className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' text="Imagination Trumps Knowledge!" />
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Classroom App"
+                                type="Full-stack Web Application"
+                                img={project9}
+                                summary="A robust online platform for efficient assignment management within classrooms, leveraging AWS technologies and NextJS to build a serverless system."
+                                github="https://github.com/Divya5003/classroom-app"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="E-Bookstore"
+                                type="Full-stack Web Application"
+                                img={project8}
+                                summary="A Full Stack E-Bookstore website with Spring Boot, ReactJS and Oracle Database. Users can filter, sort, add their favorite books to cart and buy them online."
+                                github="https://github.com/Divya5003/e-bookstore"
+                            />
+                        </div>
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="Car Showcase"
@@ -122,7 +142,7 @@ const projects = () => {
                             <Project
                                 title="Chat-app"
                                 type="Full-stack Web Application"
-                                img={project2}
+                                img={project6}
                                 summary="A web application built with React, Redux Toolkit, Node and OpenAI that enables users to interact with each other. New ChatGPT API provides AI assistance."
                                 github="https://github.com/Divya5003/chat-app"
                             />
@@ -131,7 +151,7 @@ const projects = () => {
                             <Project
                                 title="Dall-E clone"
                                 type="MERN-stack Web Application"
-                                img={project3}
+                                img={project5}
                                 summary="A Full Stack MERN AI Image Generation App replicating Dall-E by OpenAI. Users can generate images through text prompts and chare with community."
                                 github="https://github.com/Divya5003/ai-image-generator"
                             />
@@ -150,7 +170,7 @@ const projects = () => {
                             <Project
                                 title="Team Allocation App"
                                 type="React Web Application"
-                                img={project5}
+                                img={project3}
                                 summary="A web application built with React to help resource management, manage employees and build teams on the basis of their domain and skills."
                                 github="https://github.com/Divya5003/team-allocation-app"
                             />
@@ -159,7 +179,7 @@ const projects = () => {
                             <Project
                                 title="Resume Analysis Website"
                                 type="NLP Model deployed on Flask Web App"
-                                img={project6}
+                                img={project2}
                                 summary="An NLP based ML model that can compare resumes, parse important details, and suggest jobs on the basis of skills and experience. Helpful for both recruiters and applicants."
                                 github="https://github.com/Divya5003/Resume-Analysis-using-nlp"
                             />

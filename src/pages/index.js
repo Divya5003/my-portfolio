@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/A_developer_gir_0.png'
+import profilePic from '../../public/images/profile/a-digital-illustration-of-a-young-woman.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
@@ -48,7 +48,7 @@ export default function Home() {
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
-                  href="https://drive.google.com/file/d/1HIPqGIwGCShJLLGsaUxyT6p1k1quuxxx/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Kg-vLkSTsrkVdAaO-bm7VQLOUMIxxe2g/view?usp=sharing"
                   target={"_blank"}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className='fixed right-8 bottom-8 inline-block w-24 md:hidden'>
+        <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
           <Image src={lightBulb} alt="Divya" className='w-full h-auto' />
         </div>
       </main>

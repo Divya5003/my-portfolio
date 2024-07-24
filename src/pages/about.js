@@ -4,7 +4,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/ProfilePic2.png'
+import profilePic from '../../public/images/profile/profile-pic-3.png'
 import { useSpring, useMotionValue, useInView } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
@@ -77,19 +77,19 @@ const about = () => {
                         <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={20} />+
+                                    <AnimatedNumbers value={30} />+
                                 </span>
                                 <h2 className='mb-4 text-lg text-right font-bold capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects Built</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={450} />+
+                                    <AnimatedNumbers value={520} />+
                                 </span>
                                 <h2 className='mb-4 text-lg text-right font-bold capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>DSA problems solved on GFG</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={400} />+
+                                    <AnimatedNumbers value={500} />+
                                 </span>
                                 <h2 className='mb-4 text-lg text-right font-bold capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Problems solved on LeetCode</h2>
                             </div>
