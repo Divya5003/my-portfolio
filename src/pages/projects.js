@@ -15,6 +15,8 @@ import project6 from '../../public/images/projects/chat-app.png'
 import project7 from '../../public/images/projects/car-showcase.jpg'
 import project8 from '../../public/images/projects/e-bookstore.png'
 import project9 from '../../public/images/projects/classroom-app.png'
+import project10 from '../../public/images/projects/reading-comprehension-system.png'
+import project11 from '../../public/images/projects/my-therapist.png'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
@@ -110,6 +112,24 @@ const projects = () => {
                 <Layout className='pt-16'>
                     <AnimatedText className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' text="Imagination Trumps Knowledge!" />
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="MyTherapist"
+                                type="Full-stack Application"
+                                summary="AI-driven mental health support system designed to predict mental health challenges early, monitor progress over time, and offer personalized care."
+                                img={project11}
+                                github="https://github.com/Divya5003/Mental-Health-Prediction"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Reading Comprehension System"
+                                type="Full-stack Application"
+                                summary="Developed a system using AI (transformers like BERT and GPT) to generate practice questions (MCQs, True/False, Fill-in-the-blanks) for reading comprehension."
+                                img={project10}
+                                github="https://github.com/Divya5003/Mental-Health-Prediction"
+                            />
+                        </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Classroom App"

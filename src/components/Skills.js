@@ -28,9 +28,9 @@ const Skills = () => {
                 >
                     Web
                 </motion.div>
-                <Skill name="HTML" x="-20vw" y="2vw" />
-                <Skill name="CSS" x="-5vw" y="-10vw" />
-                <Skill name="JavaScript" x="20vw" y="6vw" />
+                <Skill name="Flutter" x="-20vw" y="2vw" />
+                <Skill name="GCP" x="-5vw" y="-10vw" />
+                <Skill name="AWS" x="20vw" y="6vw" />
                 <Skill name="ReactJS" x="0vw" y="12vw" />
                 <Skill name="NextJS" x="-20vw" y="-15vw" />
                 <Skill name="MongoDB" x="15vw" y="-12vw" />

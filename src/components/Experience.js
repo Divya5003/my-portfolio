@@ -58,20 +58,20 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
+                        position="Software Engineering Intern"
+                        company="@CareEco Technologies Private Limited"
+                        companyLink="https://www.elixire.in/"
+                        time="Aug 2024 - Aug 2024"
+                        address="Remote"
+                        work="Optimized search functionality by developing fuzzy matching logic and efficient aggregation pipelines in MongoDB for a sales platform. Integrated AI solutions to process invoice images. Enhanced cross-platform apps in Flutter and Django, managing serverless deployments on GCP."
+                    />
+                    <Details
                         position="Summer Intern"
                         company="@Deutsche Bank"
                         companyLink="https://www.db.com/index?language_id=1&kid=sl.redirect-en.shortcut"
                         time="May 2024 - July 2024"
                         address="Pune, India"
                         work="Empowered HR's ability to analyze employee data with interactive dashboards and customizable reports for strategic decision-making. Leveraged ReactJS, Spring Boot and Criteria API to empower HR with on-demand query creation for deeper workforce insights."
-                    />
-                    <Details
-                        position="Software Development Intern"
-                        company="@Systech Solutions, Inc"
-                        companyLink="http://www.systechusa.com/"
-                        time="Aug 2023 - Oct 23"
-                        address="Remote"
-                        work="Developed a comprehensive, in-house ERP system covering HRM, project management, inventory, and finance. Used Reactjs, Nodejs, and MySQL for smooth integration, crafting user-friendly interfaces. Implemented API integration for enhanced functionality."
                     />
                     <Details
                         position="Software Development Intern"
@@ -85,7 +85,7 @@ const Experience = () => {
                         position="Technical Team Member"
                         company="@TeamQuarkVITPune"
                         companyLink="https://www.teamquark.com/"
-                        time="Feb 2023 - Present"
+                        time="Feb 2023 - Dec 2023"
                         address="Pune, India"
                         work="Coordinated at Team Quark with expertise in Competetive Programming. Helped organize various events like workshops, hackathons, and speaker sessions with the club."
                     />
