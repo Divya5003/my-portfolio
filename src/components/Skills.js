@@ -28,20 +28,22 @@ const Skills = () => {
                 >
                     Web
                 </motion.div>
-                <Skill name="Flutter" x="-20vw" y="2vw" />
-                <Skill name="GCP" x="-5vw" y="-10vw" />
-                <Skill name="AWS" x="20vw" y="6vw" />
                 <Skill name="ReactJS" x="0vw" y="12vw" />
                 <Skill name="NextJS" x="-20vw" y="-15vw" />
                 <Skill name="MongoDB" x="15vw" y="-12vw" />
                 <Skill name="TypeScript" x="32vw" y="-5vw" />
+                <Skill name="ExpressJS" x="-36vw" y="8vw" />
                 <Skill name="NodeJS" x="0vw" y="-20vw" />
-                <Skill name="Firebase" x="-25vw" y="16vw" />
+                <Skill name="Firebase" x="-25vw" y="18vw" />
                 <Skill name="Tailwind CSS" x="28vw" y="18vw" />
                 <Skill name="Git" x="-36vw" y="-5vw" />
                 <Skill name="Spring Boot" x="0vw" y="24vw" />
                 <Skill name="Django" x="-30vw" y="-20vw" />
                 <Skill name="Flask" x="30vw" y="-20vw" />
+                <Skill name="Flutter" x="-20vw" y="2vw" />
+                <Skill name="GCP" x="-5vw" y="-10vw" />
+                <Skill name="AWS" x="20vw" y="6vw" />
+                <Skill name="DevOps" x="36vw" y="10vw" />
             </div>
 
         </>

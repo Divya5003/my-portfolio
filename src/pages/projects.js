@@ -123,16 +123,16 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Reading Comprehension System"
+                                title="ReadIQ"
                                 type="Full-stack Application"
                                 summary="Developed a system using AI (transformers like BERT and GPT) to generate practice questions (MCQs, True/False, Fill-in-the-blanks) for reading comprehension."
                                 img={project10}
-                                github="https://github.com/Divya5003/Mental-Health-Prediction"
+                                github="https://github.com/Divya5003/reading-comprehension-questions-generator"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Classroom App"
+                                title="Smart Classroom"
                                 type="Full-stack Web Application"
                                 img={project9}
                                 summary="A robust online platform for efficient assignment management within classrooms, leveraging AWS technologies and NextJS to build a serverless system."
@@ -141,7 +141,7 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="E-Bookstore"
+                                title="BookFlix"
                                 type="Full-stack Web Application"
                                 img={project8}
                                 summary="A Full Stack E-Bookstore website with Spring Boot, ReactJS and Oracle Database. Users can filter, sort, add their favorite books to cart and buy them online."
@@ -150,7 +150,7 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Car Showcase"
+                                title="CarHub"
                                 type="Modern Next.js Application"
                                 summary="A Modern Car Showcase Application built with React, NextJS 13, TypeScript, Tailwind CSS and RapidAPI having search and filter features."
                                 img={project7}
@@ -160,7 +160,7 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-app"
+                                title="ChatGram"
                                 type="Full-stack Web Application"
                                 img={project6}
                                 summary="A web application built with React, Redux Toolkit, Node and OpenAI that enables users to interact with each other. New ChatGPT API provides AI assistance."
@@ -178,7 +178,7 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Meals Application"
+                                title="Meals Forever"
                                 type="React Web Application"
                                 summary="A web application that enables user to find recipes of variety of meals, add them to favorites, and get a suprise meal recipe. Fully functional and visually appealing web application developed using ReactJS."
                                 img={project4}
@@ -188,7 +188,7 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Team Allocation App"
+                                title="Team-Up"
                                 type="React Web Application"
                                 img={project3}
                                 summary="A web application built with React to help resource management, manage employees and build teams on the basis of their domain and skills."
@@ -197,7 +197,7 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Resume Analysis Website"
+                                title="Resume Analyzer"
                                 type="NLP Model deployed on Flask Web App"
                                 img={project2}
                                 summary="An NLP based ML model that can compare resumes, parse important details, and suggest jobs on the basis of skills and experience. Helpful for both recruiters and applicants."
