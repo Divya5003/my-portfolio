@@ -58,7 +58,7 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        position="Software Engineering Intern"
+                        position="Software Development Intern"
                         company="@CareEco Technologies Private Limited"
                         companyLink="https://www.elixire.in/"
                         time="Aug 2024 - Present"
