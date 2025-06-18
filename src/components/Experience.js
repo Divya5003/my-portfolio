@@ -61,7 +61,7 @@ const Experience = () => {
                         position="Software Development Intern"
                         company="@CareEco Technologies Private Limited"
                         companyLink="https://www.elixire.in/"
-                        time="Aug 2024 - Present"
+                        time="Aug 2024 - April 2025"
                         address="Remote"
                         work="Optimized search functionality by developing fuzzy matching logic and efficient aggregation pipelines in MongoDB for a sales platform. Integrated AI solutions to process invoice images. Enhanced cross-platform apps in Flutter and Django, managing serverless deployments on GCP."
                     />
