@@ -52,7 +52,7 @@ const Education = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
                         type="Bachelor of Technology in Computer Science "
-                        time="2021-2025(Expected)"
+                        time="2021-2025"
                         place="Vishwakarma Institute of Technology, Pune"
                         info="Relevant courses including Data Structures and Algorithms, Object Oriented Programming, Database Management System, Operating Systems."
                     />
