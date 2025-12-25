@@ -76,7 +76,7 @@ const Experience = () => {
                     <Details
                         position="Summer Intern"
                         company="@Deutsche Bank"
-                        companyLink="https://www.db.com/index?language_id=1&kid=sl.redirect-en.shortcut"
+                        companyLink="https://www.db.com/"
                         time="May 2024 - July 2024"
                         address="Pune, India"
                         work="Empowered HR's ability to analyze employee data with interactive dashboards and customizable reports for strategic decision-making. Leveraged ReactJS, Spring Boot and Criteria API to empower HR with on-demand query creation for deeper workforce insights."
