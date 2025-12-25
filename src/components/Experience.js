@@ -58,6 +58,14 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
+                        position="Graduate Analyst"
+                        company="@Deutsche Bank"
+                        companyLink="https://www.db.com/"
+                        time="July 2025 - Present"
+                        address="Pune, India"
+                        work="Joined Deutsche Bank as a Graduate Analyst in the Technology division, embarking on a journey to contribute to innovative financial solutions and cutting-edge technology implementations."
+                    />
+                    <Details
                         position="Software Development Intern"
                         company="@CareEco Technologies Private Limited"
                         companyLink="https://www.elixire.in/"
